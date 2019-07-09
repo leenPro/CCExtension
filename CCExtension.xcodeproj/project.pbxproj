@@ -16,6 +16,7 @@
 		1093F25A22D43ECF000AA14D /* CCExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1093F25922D43ECF000AA14D /* CCExtensionTests.m */; };
 		1093F26522D43ECF000AA14D /* CCExtensionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1093F26422D43ECF000AA14D /* CCExtensionUITests.m */; };
 		1093F27522D443DC000AA14D /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 1093F27422D443DC000AA14D /* test.m */; };
+		1093F27922D44474000AA14D /* test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1093F27822D44474000AA14D /* test2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		1093F26622D43ECF000AA14D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1093F27322D443DC000AA14D /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
 		1093F27422D443DC000AA14D /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		1093F27722D44474000AA14D /* test2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test2.h; sourceTree = "<group>"; };
+		1093F27822D44474000AA14D /* test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,10 +142,20 @@
 		1093F27222D443BF000AA14D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				1093F27622D4445D000AA14D /* Model */,
 				1093F27322D443DC000AA14D /* test.h */,
 				1093F27422D443DC000AA14D /* test.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		1093F27622D4445D000AA14D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1093F27722D44474000AA14D /* test2.h */,
+				1093F27822D44474000AA14D /* test2.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1093F27922D44474000AA14D /* test2.m in Sources */,
 				1093F24522D43ECD000AA14D /* ViewController.m in Sources */,
 				1093F27522D443DC000AA14D /* test.m in Sources */,
 				1093F25022D43ECF000AA14D /* main.m in Sources */,
