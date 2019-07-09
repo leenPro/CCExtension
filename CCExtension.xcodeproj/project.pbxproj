@@ -15,6 +15,7 @@
 		1093F25022D43ECF000AA14D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1093F24F22D43ECF000AA14D /* main.m */; };
 		1093F25A22D43ECF000AA14D /* CCExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1093F25922D43ECF000AA14D /* CCExtensionTests.m */; };
 		1093F26522D43ECF000AA14D /* CCExtensionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1093F26422D43ECF000AA14D /* CCExtensionUITests.m */; };
+		1093F27522D443DC000AA14D /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 1093F27422D443DC000AA14D /* test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1093F26022D43ECF000AA14D /* CCExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1093F26422D43ECF000AA14D /* CCExtensionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCExtensionUITests.m; sourceTree = "<group>"; };
 		1093F26622D43ECF000AA14D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1093F27322D443DC000AA14D /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		1093F27422D443DC000AA14D /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		1093F23F22D43ECD000AA14D /* CCExtension */ = {
 			isa = PBXGroup;
 			children = (
+				1093F27222D443BF000AA14D /* Classes */,
 				1093F24022D43ECD000AA14D /* AppDelegate.h */,
 				1093F24122D43ECD000AA14D /* AppDelegate.m */,
 				1093F24322D43ECD000AA14D /* ViewController.h */,
@@ -130,6 +134,15 @@
 				1093F26622D43ECF000AA14D /* Info.plist */,
 			);
 			path = CCExtensionUITests;
+			sourceTree = "<group>";
+		};
+		1093F27222D443BF000AA14D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1093F27322D443DC000AA14D /* test.h */,
+				1093F27422D443DC000AA14D /* test.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1093F24522D43ECD000AA14D /* ViewController.m in Sources */,
+				1093F27522D443DC000AA14D /* test.m in Sources */,
 				1093F25022D43ECF000AA14D /* main.m in Sources */,
 				1093F24222D43ECD000AA14D /* AppDelegate.m in Sources */,
 			);
